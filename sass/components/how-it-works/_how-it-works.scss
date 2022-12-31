@@ -1,0 +1,42 @@
+.how-it-works {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.how-it-works__container {
+  display: flex;
+}
+
+.how-it-works__left {
+}
+.how-it-works__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.57;
+
+  color: $color-text-primary;
+}
+
+.how-it-works__text {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.57;
+
+  color: $accent-color;
+}
+
+.how-it-works__content {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+
+  color: $color-text-primary;
+}
