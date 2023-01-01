@@ -1,0 +1,38 @@
+.page-footer {
+  padding: 100px 0;
+
+  background-color: $accent-color;
+}
+
+.page-footer-container {
+}
+
+.page-footer__logo {
+  display: block;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.375;
+
+  color: $color-text-nav-secondary;
+}
+
+.page-footer__list {
+}
+
+.page-footer__item {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.page-footer__link {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.25;
+
+  color: $color-text-nav-secondary;
+}

@@ -5,9 +5,11 @@
 
 .how-it-works__container {
   display: flex;
+  align-items: center;
 }
 
 .how-it-works__left {
+  width: 550px;
 }
 .how-it-works__title {
   margin-top: 0;
@@ -33,6 +35,10 @@
 .how-it-works__content {
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 130px;
+  padding-top: 30px;
+
+  width: 700px;
 
   font-weight: 500;
   font-size: 20px;
