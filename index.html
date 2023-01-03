@@ -14,6 +14,7 @@
     <title>Alivio</title>
   </head>
   <body>
+    <!-- Хедер -->
     <header class="header">
       <div class="header__container container">
         <a href="./index.html" class="header__logo list">Alivio</a>
@@ -49,7 +50,9 @@
         </nav>
       </div>
     </header>
+    <!-- основной контент -->
     <main>
+      <!-- секция герой -->
       <section class="hero">
         <div class="hero-container container">
           <h1 class="hero-container__title">Be aware, Manage well.</h1>
@@ -60,6 +63,8 @@
           <button type="button" class="hero-container__btn list">Find Your Way</button>
         </div>
       </section>
+
+      <!-- секция как мы работаем -->
 
       <section class="how-it-works">
         <div class="how-it-works__container container">
@@ -75,41 +80,61 @@
         </div>
       </section>
 
-      <section>
-        <div class="container">
-          <h2>steps</h2>
+      <!-- секция -->
 
-          <ul>
-            <li>
-              <h3>Personalize</h3>
-              <p>
+      <section class="steps">
+        <div class="steps__container container">
+          <h2 class="hidden">steps</h2>
+
+          <ul class="steps-list list no-margin">
+            <li class="steps-list__item">
+              <h3 class="steps-list__title">Personalize</h3>
+              <p class="steps-list__text">
                 Answer a quick survey about how you express yourself, what causes you stress, and
                 what area would you like to work on. This way, we can fully personalize your
                 journal!
               </p>
-              <img src="" alt="" />
+              <img
+                srcset="./images/personalize.jpg 1x, ./images/personalize-2x.jpg 2x"
+                src="./images/personalize.jpg"
+                alt="Персоналізація"
+                class="steps-list__img"
+              />
             </li>
 
-            <li>
-              <h3>Write & Understand</h3>
-              <p>
+            <li class="steps-list__item">
+              <h3 class="steps-list__title">Write & Understand</h3>
+              <p class="steps-list__text">
                 Write, draw, reflect, understand. Alivio will guide you through the prompts and will
                 help you manage your stress!
               </p>
-              <img src="" alt="" />
+              <img
+                srcset="./images/write.jpg 1x, ./images/write-2x.jpg 2x"
+                src="./images/write.jpg"
+                alt="зворотній з'вязок"
+                class="steps-list__img"
+              />
             </li>
 
-            <li>
-              <h3>Alivio</h3>
-              <p>
+            <li class="steps-list__item">
+              <h3 class="steps-list__title">Alivio</h3>
+              <p class="steps-list__text">
                 Now you are aware, and have a way to manage and overcome your own stress. What are
                 you waiting for? Alivio today!
               </p>
-              <img src="" alt="" />
+              <img
+                srcset="./images/alivio.jpg 1x, ./images/alivio-2x.jpg 2x"
+                src="./images/alivio.jpg"
+                alt="Аливио"
+                class="steps-list__img"
+              />
             </li>
           </ul>
         </div>
       </section>
+
+      <!-- секция о нас -->
+
       <section class="about">
         <div class="about__container container">
           <div class="about__content">
@@ -119,13 +144,36 @@
             <button type="button" class="about__btn">Let’s get started</button>
           </div>
 
-          <div class="about__video"></div>
+          <div class="about__video">
+            <img
+              srcset="./images/video.jpg 1x, ./images/video-2x.jpg 2x"
+              src="./images/video.jpg"
+              alt="відео  про нас"
+            />
+
+            <svg class="about__icon-play" width="80" height="80">
+              <use href="./images/play-white.svg"></use>
+            </svg>
+          </div>
         </div>
       </section>
 
+      <!-- наш продукт -->
+
       <section class="product">
         <div class="product__container container">
-          <div class="product-thumb"></div>
+          <div class="product-thumb">
+            <div class="product-thumb__card">
+              <h2 class="product-thumb__label">Customized For</h2>
+              <img class="product-thumb__img" src="./images/card.png" alt="" />
+              <p class="product-thumb__name">Mikayla</p>
+              <h3 class="product-thumb__title">your custom content</h3>
+              <ul class="product-thumb-list no-margin">
+                <li class="product-thumb-list__item">Understand Your Stress</li>
+                <li class="product-thumb-list__item">Anger Management</li>
+              </ul>
+            </div>
+          </div>
           <div class="product-content">
             <h2 class="product-content__label">Our product</h2>
             <h3 class="product-content__title">You tell us your stress, We make your diary</h3>
@@ -138,6 +186,8 @@
           </div>
         </div>
       </section>
+
+      <!-- футер -->
 
       <footer class="page-footer">
         <div class="page-footer-container container">

@@ -5,6 +5,16 @@
 
   height: 650px;
   background-color: $bg-greeting-overlay;
+
+  background-image: url('../../../images/hero-bg.jpg'),
+    linear-gradient(112.58deg, #ffffff 18.15%, rgba(255, 255, 255, 0) 53.07%);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url('../../../images/hero-bg-2x.jpg'),
+      linear-gradient(112.58deg, #ffffff 18.15%, rgba(255, 255, 255, 0) 53.07%);
+  }
 }
 
 .hero-container {
